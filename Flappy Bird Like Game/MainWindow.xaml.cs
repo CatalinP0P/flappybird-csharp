@@ -153,7 +153,7 @@ namespace Flappy_Bird_Like_Game
                 if (BirdAngle > 0)
                     BirdAngle = 0;
                 if (BirdAngle > -45)
-                    BirdAngle -= 0.5;
+                    BirdAngle -= 0.75;
                 
                 RotateTransform rotate = new RotateTransform(BirdAngle);
                 bird.LayoutTransform = rotate;
